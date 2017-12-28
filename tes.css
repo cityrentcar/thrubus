@@ -1,0 +1,33 @@
+body {background-color:#ECEEF5;}
+	html {font-family: "Roboto", sans-serif;}
+	html * {font-family: 'Roboto', sans-serif;}
+	.navku {box-shadow:none; background-color: transparent);}
+nav ul li.active, nav ul li.active a {color:#FFBF00;}
+    .section {padding:0px;}
+    .side-nav li {width:100%;}
+	.side-nav * {font-size: 1rem;}
+	.date-outer {padding:30px 0px 5px 0px;}
+	.post {padding-bottom:40px;}
+	.cover {
+background:#263238 url(https://lh3.googleusercontent.com/8VzRjRz6F6M5682qVe6yE5ZBQq547cAUQT5y3nrxMbvf8owm1ibo0Hns0F6Q9s6_G2o4UYDqLxc5lQC8uXKNKzJoKhUKn2NKvZ1QGCRSs-_DrgmUTDMcNbGinsD_fvj6lQDuKVup=w1588-h893-no) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.cover p {font-family: 'Roboto', sans-serif; font-size:18px; font-weight:300;}
+.slider.slides li img::after {
+content:"";
+position:absolute;
+top:0; left:0;
+width:100%;
+height:100%;
+min-height:100vh;
+background:red;
+z-index:666;
+
+}
+
+.slider .slides li .caption {top:35%; width:50%; left:25%;}
+.slider .slides li .caption h3 {font-size:36px; font-weight:700;}
+.slider .slides li .caption h5 {font-size:18px; line-height:1.4em;}
+#navbar-mobile{z-index:9999;background:red;}
